@@ -1,6 +1,6 @@
-@import 'normalize';
-@import 'syntax';
-@import 'variables';
+@import 'flexible-jekyll/normalize';
+@import 'flexible-jekyll/syntax';
+@import 'flexible-jekyll/variables';
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -137,13 +137,13 @@ table tfoot td {
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
-@import 'parts/home-page';
+@import 'flexible-jekyll/parts/home-page';
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
-@import 'parts/post-page';
+@import 'flexible-jekyll/parts/post-page';
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
-@import 'parts/tag';
+@import 'flexible-jekyll/parts/tag';
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
-@import 'media';
+@import 'flexible-jekyll/media';

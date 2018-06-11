@@ -24,14 +24,15 @@ discus-identifier: mr-brown # add your discus identifier
 # Tracker
 analytics: # Google Analytics
 
+paginate: 8
+paginate_path: "/page/:num"
+
 # Build Settings
 markdown: kramdown
+theme: flexible-jekyll
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
-
-paginate: 8
-paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
